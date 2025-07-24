@@ -1,0 +1,42 @@
+{
+  "model_name": "Qwen/Qwen2.5-0.5B-Instruct",
+  "training_completed": true,
+  "training_samples": 7,
+  "training_losses": [
+    13.123327255249023,
+    9.018937723977226,
+    4.147775820323399
+  ],
+  "final_loss": 4.147775820323399,
+  "loss_improvement": 8.975551434925624,
+  "inference_results": [
+    {
+      "problem": "Solve for x: 2x + 6 = 14",
+      "response": "act 6 from both sides of the equation.\n\\[ 2x + 6 - 6 = 14 - 6 \\]\nThis simplifies to:\n\\[ 2x = 8 \\]\n\nStep 2: Divide both sides by 2.\n\\[ \\frac{2x}{2} = \\frac{8}{2} \\]\nThis simplifies to:\n\\[ x = 4 \\]",
+      "quality": 0,
+      "action_count": 0
+    },
+    {
+      "problem": "Calculate: 7 + 2 \u00d7 3",
+      "response": "operations**: The expression is \\( 7 + 2 \\times 3 \\).\n\n2. **Perform multiplication first**:\n   - Multiply 2 by 3.\n     \\[\n     2 \\times 3 = 6\n     \\]\n\n3. **Add the result of multiplication to 7**:\n   - Add 7 to the product obtained from the multiplication.\n     \\[\n     7 +",
+      "quality": 0,
+      "action_count": 0
+    },
+    {
+      "problem": "A jar has 20 items. If 5 are removed, how many remain?",
+      "response": "dentify the initial number of items**: The jar starts with 20 items.\n2. **Determine what happens when 5 items are removed**: When we remove 5 items from a total of 20, we subtract 5 from 20.\n3. **Calculate the result**: Subtracting 5 from 20 gives us 15.\n\nSo, if 5 are removed from a jar that",
+      "quality": 0,
+      "action_count": 0
+    }
+  ],
+  "average_quality": 0.0,
+  "lora_config": {
+    "rank": 8,
+    "alpha": 16,
+    "target_modules": [
+      "q_proj",
+      "v_proj"
+    ]
+  },
+  "timestamp": "2025-07-24T11:54:34.398858"
+}

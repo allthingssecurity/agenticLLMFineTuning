@@ -1,0 +1,16 @@
+# Core ML dependencies
+torch>=2.0.0
+transformers>=4.35.0
+peft>=0.6.0
+accelerate>=0.24.0
+
+# Training utilities
+datasets>=2.14.0
+tokenizers>=0.14.0
+
+# Optional: For unsloth acceleration (if compatible)
+# unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git
+
+# Development utilities
+numpy>=1.24.0
+tqdm>=4.66.0
